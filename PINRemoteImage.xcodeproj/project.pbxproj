@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -55,10 +55,6 @@
 		6864A9221F6D94AF007BB848 /* PINAnimatedImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6864A9211F6D94AF007BB848 /* PINAnimatedImageTests.swift */; };
 		686D48D01ED38FC0003DB4C2 /* PINRemoteImageTask+Subclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = 686D48CE1ED38FC0003DB4C2 /* PINRemoteImageTask+Subclassing.h */; };
 		687750281F6B2305008748B0 /* PINWebPAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 687750261F6B2305008748B0 /* PINWebPAnimatedImage.m */; };
-		68837707252F9D5300B9C290 /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68837706252F9D5300B9C290 /* PINCache.framework */; };
-		68837709252F9D5300B9C290 /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68837708252F9D5300B9C290 /* PINOperation.framework */; };
-		6883770B252F9D7800B9C290 /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6883770A252F9D7800B9C290 /* PINCache.framework */; };
-		6883770D252F9D7800B9C290 /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6883770C252F9D7800B9C290 /* PINOperation.framework */; };
 		68912D86208FDB4900F5FE0E /* PINRemoteWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 68912D84208FDB4900F5FE0E /* PINRemoteWeakProxy.h */; };
 		68912D87208FDB4900F5FE0E /* PINRemoteWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 68912D84208FDB4900F5FE0E /* PINRemoteWeakProxy.h */; };
 		68912D88208FDB4900F5FE0E /* PINRemoteWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68912D85208FDB4900F5FE0E /* PINRemoteWeakProxy.m */; };
@@ -91,6 +87,11 @@
 		68F0EA931CB32EC900F1FD41 /* PINAlternateRepresentationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F0EA8F1CB32EC900F1FD41 /* PINAlternateRepresentationProvider.m */; };
 		68F0EA941CB32EC900F1FD41 /* PINRemoteImageMemoryContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F0EA901CB32EC900F1FD41 /* PINRemoteImageMemoryContainer.h */; };
 		68F0EA951CB32EC900F1FD41 /* PINRemoteImageMemoryContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F0EA911CB32EC900F1FD41 /* PINRemoteImageMemoryContainer.m */; };
+		8A924CC026B45CFC0069872F /* libwebp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A924CBD26B45CFC0069872F /* libwebp.xcframework */; };
+		8A924CC226B45CFC0069872F /* PINCache.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A924CBE26B45CFC0069872F /* PINCache.xcframework */; };
+		8A924CC426B45CFC0069872F /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A924CBF26B45CFC0069872F /* PINOperation.xcframework */; };
+		8A924CC626B45D130069872F /* PINCache.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A924CBE26B45CFC0069872F /* PINCache.xcframework */; };
+		8A924CC826B45D130069872F /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A924CBF26B45CFC0069872F /* PINOperation.xcframework */; };
 		926E01641F0DFEE800874D01 /* PINRequestRetryStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 926E015D1F0DFCAE00874D01 /* PINRequestRetryStrategy.m */; };
 		938E98D52224775600029E4D /* PINRemoteImageManagerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 939546BE2220AF84006031BB /* PINRemoteImageManagerConfiguration.h */; };
 		938E98DA2224775B00029E4D /* PINRemoteImageManagerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 939546BF2220AF84006031BB /* PINRemoteImageManagerConfiguration.m */; };
@@ -121,8 +122,6 @@
 		F1B9191C1BCF23C900710963 /* PINRemoteImageTask.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B918FB1BCF23C800710963 /* PINRemoteImageTask.h */; };
 		F1B9191D1BCF23C900710963 /* PINRemoteImageTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B918FC1BCF23C800710963 /* PINRemoteImageTask.m */; };
 		F1B9191F1BCF23C900710963 /* PINURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B918FE1BCF23C900710963 /* PINURLSessionManager.m */; };
-		F370FD6624AD0F6D0026A9D9 /* WebPDemux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F370FD6524AD0F6D0026A9D9 /* WebPDemux.framework */; };
-		F370FD6924AD0F920026A9D9 /* WebPDecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F370FD6824AD0F920026A9D9 /* WebPDecoder.framework */; };
 		FBC8209C2526277E007FD40D /* PINURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC820812526277E007FD40D /* PINURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBC8209D2526277E007FD40D /* PINURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC820812526277E007FD40D /* PINURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBC8209E2526277E007FD40D /* PINRemoteImageCategoryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC820822526277E007FD40D /* PINRemoteImageCategoryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -183,15 +182,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		687BB0A81E526FE0005D70C6 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		687BB0B11E527EBC005D70C6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,6 +239,9 @@
 		68F0EA8F1CB32EC900F1FD41 /* PINAlternateRepresentationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINAlternateRepresentationProvider.m; sourceTree = "<group>"; };
 		68F0EA901CB32EC900F1FD41 /* PINRemoteImageMemoryContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageMemoryContainer.h; sourceTree = "<group>"; };
 		68F0EA911CB32EC900F1FD41 /* PINRemoteImageMemoryContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageMemoryContainer.m; sourceTree = "<group>"; };
+		8A924CBD26B45CFC0069872F /* libwebp.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libwebp.xcframework; path = Carthage/Build/libwebp.xcframework; sourceTree = "<group>"; };
+		8A924CBE26B45CFC0069872F /* PINCache.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PINCache.xcframework; path = Carthage/Build/PINCache.xcframework; sourceTree = "<group>"; };
+		8A924CBF26B45CFC0069872F /* PINOperation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PINOperation.xcframework; path = Carthage/Build/PINOperation.xcframework; sourceTree = "<group>"; };
 		926E015D1F0DFCAE00874D01 /* PINRequestRetryStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINRequestRetryStrategy.m; sourceTree = "<group>"; };
 		939546BE2220AF84006031BB /* PINRemoteImageManagerConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageManagerConfiguration.h; sourceTree = "<group>"; };
 		939546BF2220AF84006031BB /* PINRemoteImageManagerConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageManagerConfiguration.m; sourceTree = "<group>"; };
@@ -310,8 +303,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6883770B252F9D7800B9C290 /* PINCache.framework in Frameworks */,
-				6883770D252F9D7800B9C290 /* PINOperation.framework in Frameworks */,
+				8A924CC626B45D130069872F /* PINCache.xcframework in Frameworks */,
+				8A924CC826B45D130069872F /* PINOperation.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,10 +328,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F370FD6624AD0F6D0026A9D9 /* WebPDemux.framework in Frameworks */,
-				F370FD6924AD0F920026A9D9 /* WebPDecoder.framework in Frameworks */,
-				68837709252F9D5300B9C290 /* PINOperation.framework in Frameworks */,
-				68837707252F9D5300B9C290 /* PINCache.framework in Frameworks */,
+				8A924CC426B45CFC0069872F /* PINOperation.xcframework in Frameworks */,
+				8A924CC026B45CFC0069872F /* libwebp.xcframework in Frameworks */,
+				8A924CC226B45CFC0069872F /* PINCache.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +340,9 @@
 		6818C1531E551B5900875DB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A924CBD26B45CFC0069872F /* libwebp.xcframework */,
+				8A924CBE26B45CFC0069872F /* PINCache.xcframework */,
+				8A924CBF26B45CFC0069872F /* PINOperation.xcframework */,
 				6883770A252F9D7800B9C290 /* PINCache.framework */,
 				6883770C252F9D7800B9C290 /* PINOperation.framework */,
 				68837706252F9D5300B9C290 /* PINCache.framework */,
@@ -720,7 +715,6 @@
 			buildConfigurationList = F1B918D91BCF239200710963 /* Build configuration list for PBXNativeTarget "PINRemoteImage" */;
 			buildPhases = (
 				F1B918CC1BCF239200710963 /* Sources */,
-				687BB0A81E526FE0005D70C6 /* CopyFiles */,
 				F1B918CD1BCF239200710963 /* Frameworks */,
 				F1B918CE1BCF239200710963 /* Headers */,
 			);
@@ -957,7 +951,11 @@
 				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = Source/PINRemoteImage.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINRemoteImage;
 				PRODUCT_NAME = PINRemoteImage;
@@ -1001,7 +999,11 @@
 				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = Source/PINRemoteImage.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINRemoteImage;
 				PRODUCT_NAME = PINRemoteImage;
@@ -1035,7 +1037,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pinterest.PINRemoteImage-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1065,7 +1071,11 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pinterest.PINRemoteImage-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1093,7 +1103,11 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.PINRemoteImageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Tests/PINRemoteImageTests-Bridging-Header.h";
@@ -1117,7 +1131,11 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.PINRemoteImageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Tests/PINRemoteImageTests-Bridging-Header.h";
@@ -1238,7 +1256,8 @@
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = PINRemoteImage;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				VALIDATE_PRODUCT = YES;
@@ -1275,7 +1294,11 @@
 				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = Source/PINRemoteImage.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINRemoteImage;
 				SKIP_INSTALL = YES;
@@ -1310,7 +1333,11 @@
 				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = Source/PINRemoteImage.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINRemoteImage;
 				SKIP_INSTALL = YES;
