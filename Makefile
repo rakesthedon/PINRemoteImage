@@ -25,7 +25,7 @@ test:
 carthage:
 	##### Apply workaround https://github.com/Carthage/Carthage/issues/3019#issuecomment-734415287
 	./carthage.sh update --no-use-binaries --no-build; \
-	./carthage.sh build --no-skip-current;
+	./carthage.sh build --no-skip-current --use-xcframeworks;
 
 webp:
 	carthage update --no-use-binaries --no-build
